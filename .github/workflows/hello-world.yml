@@ -15,4 +15,6 @@ jobs:
         run: cat greetings.txt
       - name: greet with name
         run: echo "Hello, ${{ github.actor }}" > greetings.txt
+      - name: cat after second greet
+        run: cat greetings.txt
       
